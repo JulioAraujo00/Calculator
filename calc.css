@@ -1,62 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #A52B2B;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #4b3f3f;
 }
 .center {
-    width: 350px;
-    background: #000000;
-    border-radius: 22px;
+  width: 350px;
+  background-color: rgba(246, 238, 238, 0.589);
+  border-radius: 22px;
 }
 input[type="text"] {
-    height: 60px;
-    width: 300px;
-    margin-top: 40px;
-    border-radius: 5px;
-    border: 1px solid #e1e7ea;
-    font-weight: 400;
-    text-align: right;
-    padding-right: 22px;
-    background: linear-gradient(#d1dce0, #dfe6e9);
+  font-family: "Roboto", sans-serif;
+  height: 60px;
+  width: 300px;
+  margin-top: 40px;
+  border-radius: 8px;
+  border: 1px solid #e1e7ea;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 22px;
+  background: rgba(189, 189, 189, 0.41);
+  border: none;
 }
 form .buttons {
-    width: 300px;
-    margin: 10px 25px 0 25px;
-    padding: 10px 0;
+  width: 300px;
+  margin: 10px 25px 0 25px;
+  padding: 10px 0;
 }
 input[type="button"] {
-    width: 58px;
-    height: 55px;
-    margin: 5px;
-    font-size: 22px;
-    line-height: 55px;
-    border-radius: 3px;
-    border: solid 1px;
-    background: linear-gradient(#d9d9d9, #bfbfbf);
+  width: 58px;
+  height: 55px;
+  margin: 5px;
+  font-size: 22px;
+  line-height: 55px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(189, 189, 189, 0.41);
 }
 input[type="button"]:hover {
-    transition: .5s;
-    background: linear-gradient( #bfbfbf,#d9d9d9);
+  transition: 0.5s;
+  background: rgba(139, 133, 133, 0.41);
 }
 input#clear {
-    background: #ff1a1a;
-    border: 1px solid #cc0000;
-    color: white;
+  background: #eb2727dc;
+  border: none;
+  color: white;
+}
+input#clear:hover {
+  background: #f60f0f;
 }
 input#equal {
-    width:275px;
-    margin: 10px 0 10px 0;
-    color: white;
-    background: #ff3d00;
-    border: 1px solid #b32a00;
+  width: 275px;
+  margin: 10px 0 10px 0;
+  font-size: 30px;
+  color: white;
+  background: rgba(207, 79, 79, 0.94);
+  border: none;
+}
+input#equal:hover {
+  transition: 0.5s;
+  background: #cc0000;
 }
